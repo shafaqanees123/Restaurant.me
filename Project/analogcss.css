@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+header{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://th.bing.com/th/id/R.2e65234fe0e3bd107c8224717ebcb5ae?rik=jdOuSq4siJY%2f1g&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+     background-size: cover;
+     position: sticky;
+     height: 700px;
+     width: 100%;
+}
+
+    #contact:hover{
+        text-decoration: none;
+    background-color: red;
+    color: black;
+    }    
+#mail:hover{
+    text-decoration: none;
+background-color: red;
+color: black;
+}
+.head{
+display: flex;
+color: white;
+justify-content: space-between;
+background-color: rgb(155, 155, 150);
+width: 100%;
+height: 7vh;
+}
+nav{
+    
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+ 
+}
+nav .logo{
+    text-align: center;
+    margin-left: 30px;
+    padding-left: 10px;
+    
+}
+.logo img{
+    margin-top: 20px;
+    width: 70px;
+    height: 50px;
+}
+nav .list{
+    width: 50%;
+}
+nav .list ul{
+display: flex;
+justify-content: space-between;
+list-style: none;
+margin-top: 65px;
+
+}
+nav .logo a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(53, 250, 4);
+}
+nav .list ul a{
+    text-decoration: none;
+    color: rgb(7, 72, 252);
+    
+}
+a:hover{  
+    background-color:red;
+    color: black;
+    }
+  
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(235, 162, 74);
+    margin-top: 40px;
+    box-shadow: 2px 3px 2px grey;
+}
+button:hover{  background-color:red;
+    color: black;
+    }
+button a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-size: large;
+    
+}
+h2:hover{
+    background-color:red;
+color: black;
+}
+.content{
+    color: rgb(0, 0, 0);    
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 2px 3px 2px rgb(255, 251, 15);
+    font-weight: bold;
+}
+ h3{
+    font-size: 70px;
+ }
+
+ #box1{
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    margin-left: 430px;
+   margin-top: 40px;
+    text-align: center;
+    /* padding-top: 17px; */
+    text-transform: capitalize;
+ 
+}
+#box1:hover{
+    background-color:red;
+    color: black;
+}
+#box2{
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    margin-left: 680px;
+    margin-top: -32px;
+    text-align: center;
+    /* padding-top: 17px; */
+    text-transform: capitalize;
+}
+#box2:hover{
+    background-color:rgb(255, 0, 0);
+    color: black;
+    
+}
+#box3{
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+}
+#arrow1{
+    background-color: rgb(255, 153, 0);
+    width: 40px;
+    border-radius: 200px;
+    border: 200px;
+  margin-left: 1300px;
+  margin-top: -120px;
+}
+#arrow1:hover{
+    background-color:rgb(255, 0, 0);
+    color: black;
+}
+#arrow2{
+    background-color: rgb(255, 153, 0);
+   margin-top: -20px;
+   margin-left: 20px;
+    width: 40px;
+    border-radius: 200px;
+    border: 200px;
+}
+#arrow2:hover{
+    background-color:rgb(255, 0, 0);
+    color: black;
+}
+#intro{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+}
+ h1{
+    margin-top: 30px;
+    font-size: x-large;
+    text-align: center;
+    
+ }
+ p{
+    margin-top: 10px;
+    text-align: center;
+ }
+ .recipe-menu{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 70px;
+  
+ }
+ #recipe1 img{
+    margin-right: 60px;
+ }
+ #recipe2 img{
+    width: 230px;
+    height: 180px;
+    margin-right: 60px;
+ }
+ #recipe3 img{
+    width: 230px;
+    height: 180px;
+    margin-right: 60px;
+ }
+ .menu2{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 250px;
+  
+ }
+ #recipe4 img{
+    width: 230px;
+    height: 180px;
+    margin-right: 60px;
+ }
+ #recipe5 img{
+    width: 230px;
+    height: 180px;
+    margin-right: 60px;
+ }
+ #recipe6 img{
+    width: 230px;
+    height: 180px;
+    margin-right: 60px;
+ }
+ .footer{
+    background-color: black;
+    height: 250px;
+    margin-top: 300px;
+    padding-top: 50px;
+   column-count: 4;
+   column-rule: 2px solid red;
+   column-gap: 10px;
+   column-span: all;
+ }
+
+.foot1 img{
+    width: 170px;
+    height: 140px;
+    margin-left: 60px;
+
+}
+.foot2{
+    color: aliceblue;
+    text-align: center;
+}
+#heading{
+    margin-top: 200px;
+}
+#a1{
+    color: aliceblue;
+}
+.foot3{
+    color: aliceblue;
+    text-align: center;
+}
+
+#b1{
+    color: aliceblue;
+}
+.foot4{
+    color: aliceblue;
+    text-align: center;
+}
+
+#c1{
+    color: aliceblue;
+}
+.list1 ul{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+justify-content: space-around;
+list-style: none;
+color: aliceblue;
+height: 50px;
+}
+
+
+.list1 a{
+    color: rgb(239, 255, 22);
+    text-decoration: none;
+    font-size: large;
+ 
+}
+#Copyright{
+    background-color: gray;
+ text-align: center;
+    width: 100%;
+    font-size: x-large;
+    height: 5%;
+}
